@@ -1,0 +1,30 @@
+<b> for bold
+<i> italic
+<br /> break point
+<hr /> Horizontal break
+<strong> also works for bolding
+<em> also works for italic
+<q> used for shorter quotes that are used whitin a paragraph
+<blockquote> will allow you to show where you got the quote from
+<abbr> to use before abbreviations
+<address> to contain contact details of the author
+	<a href="mailto:antiguamaximo@gmail.com" target="_blank"></a>
+		"target='_blank'" will open a new tab
+	<a href="
+<del> will strikethrough a word often used when deleting something
+<ins> will underline a word often used when adding something
+<s> indicates when something is no longer relevant
+<ul>
+	<li>
+<ol>
+	<li>
+<dl> creates a definition list
+	<dt> used to contain the term being defined
+	<dd> used to contain the definition
+<a href="absolute/relative url"> [Name you want to assign] </a>
+	<a href=#id_given_to_element"> </a>
+		<h2 id="given"> </h2>
+<img src="[relative url]" alt="message for screen readers" title="accurate description"
+	width="100" height="200"/>
+<figure> contain images and their captions
+	<figcaption>  allows captions to be added to an image
