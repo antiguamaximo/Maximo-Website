@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: #ddd;
+}
+
+/* Main Information */
+a:hover {
+  background: #ddd;
+  color: grey;
+}
+/*  Body */
+
+  /* About Me */
+
+
+  /* Work Experience */
+
+  /* Education */
+
+
+  /* Certifications */
+
+
+  /* Skills  */
+
+
+/* Footer */
+footer {
+  background-color: #ddd;
+  padding: 10px;
+}
