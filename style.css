@@ -1,14 +1,84 @@
+/*How to import fonts form google 
+
+@import url("URL provided by google")
+*/
+
+/* 
+
+
+Colors used: Light blue (#E9F1FA), bright blue (#00ABE4), white (#FFFFFF)
+ Beige (#DDD0C8), dark grey (#323232)
+ Neon blue (#2272FF), black (#1D1D1)
+*/
+
+/* for the whole document */
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;  
-  background-color: #ddd;
+  color: ##00ABE4;
+  background-color: #E9F1FA;
 }
 
-/* Main Information */
-a:hover {
-  background: #ddd;
-  color: grey;
+
+html, body, footer{
+  margin: 1px;
+  padding: 0;
 }
+
+
+/* Main Information */
+
+.main-header, footer {  /* Makes sure the image/text in the header stays if the browser is squeezed an
+                    changes the padding to eliminate whitespace */
+  background-size: cover;
+  padding: 2px;
+  text-align: center;
+}
+
+.main-header .main-img { /* Makes the image round and fit better into place */
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.main-header a, footer a { /*  removes the underline */
+  text-decoration: none;
+  color: #00ABE4 ;
+  padding: 2px;
+}
+
+.main-header a:hover, footer a:hover { /* creates a hover-like reaction when the user places the mouse on top of the links */
+  background-color: #FFFFFF;
+  opacity: 100%;
+}
+
+/* Navigation buttons */
+
+.main-nav {
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+}
+.nav ul { 
+  margin: 0;
+  padding: 10px;
+
+}
+.nav li { /* Makes the list be displayed horizontally */
+  display: inline;
+  padding: 5px;
+}
+
+.nav a, footer a { /* adds some area before the content and the border, and added inline-block that allows our links
+          to have paddings everywhere*/
+  display: inline-block;
+  padding: .2em;
+
+}
+
+
+
 /*  Body */
 
   /* About Me */
@@ -26,7 +96,8 @@ a:hover {
 
 
 /* Footer */
-footer {
-  background-color: #ddd;
-  padding: 10px;
+footer h4 {
+  font-size: 1.2em;
+  padding: 0px;
+  display: inline;
 }
