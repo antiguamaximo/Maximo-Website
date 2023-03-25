@@ -11,12 +11,19 @@ Colors used: Light blue (#E9F1FA), bright blue (#00ABE4), white (#FFFFFF)
  Neon blue (#2272FF), black (#1D1D1)
 */
 
+
+
+/*  Maximo: You have to re-use your classes, just as you will reuse functions in Python
+Think of creating a class that can give multiple variables different values
+That way you will be able to picture it easier.*/
+
+
 /* for the whole document */
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;  
-  color: ##00ABE4;
-  background-color: #E9F1FA;
+  color: #DDD0C8;
+  background-color: #323232;
 }
 
 
@@ -28,27 +35,31 @@ html, body, footer{
 
 /* Main Information */
 
-.main-header, footer {  /* Makes sure the image/text in the header stays if the browser is squeezed an
-                    changes the padding to eliminate whitespace */
+/* Makes sure the image/text in the header stays if the browser is squeezed an
+changes the padding to eliminate whitespace */
+.main-header, footer {  
   background-size: cover;
   padding: 2px;
   text-align: center;
 }
 
-.main-header .main-img { /* Makes the image round and fit better into place */
+/* Makes the image round and fit better into place */
+.main-header .main-img { 
   height: 200px;
-  width: 200px;
-  margin: 2px;
+  width: 170px;
+  margin: px;
   border-radius: 50%;
 }
 
-.main-header a, footer a { /*  removes the underline */
+ /*  removes the underline */
+.main-header a, footer a {
   text-decoration: none;
   color: #00ABE4 ;
   padding: 2px;
 }
 
-.main-header a:hover, footer a:hover { /* creates a hover-like reaction when the user places the mouse on top of the links */
+/* creates a hover-like reaction when the user places the mouse on top of the links */
+.main-header a:hover, footer a:hover {
   background-color: #FFFFFF;
   opacity: 100%;
 }
@@ -58,20 +69,24 @@ html, body, footer{
 .main-nav {
   font-size: 1.1em;
   font-weight: lighter;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #DDD0C8;
 }
+
 .nav ul { 
   margin: 0;
   padding: 10px;
 
 }
-.nav li { /* Makes the list be displayed horizontally */
+
+/* Makes the list be displayed horizontally */
+.nav li { 
   display: inline;
   padding: 5px;
 }
 
-.nav a, footer a { /* adds some area before the content and the border, and added inline-block that allows our links
-          to have paddings everywhere*/
+/* adds some area before the content and the border, and added inline-block that allows our links
+ to have paddings everywhere*/
+.nav a, footer a { 
   display: inline-block;
   padding: .2em;
 
@@ -80,6 +95,17 @@ html, body, footer{
 
 
 /*  Body */
+
+/* */
+.main-body {
+  margin: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
 
   /* About Me */
 
@@ -96,6 +122,10 @@ html, body, footer{
 
 
 /* Footer */
+footer{
+  border-top: 1px solid #DDD0C8;
+}
+
 footer h4 {
   font-size: 1.2em;
   padding: 0px;
